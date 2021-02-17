@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+/* CARD */
+.card {
+  width: 300px;
+  height: 64vh;
+  background: #d7bc74;
+  display: flex;
+  flex-direction: column;
+  border: 8px solid #3b4b6b;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+}
+
+.card .card-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #00000030;
+  box-shadow: 0px 0px 1px 2px #00000030;
+  border-radius: 0.1rem;
+  padding: 0.2rem;
+}
+
+.card .card-name h1 {
+  font-size: 1rem;
+}
+
+.card .card-name .card-type {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #7c623f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card .card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  justify-content: center;
+  align-self: center;
+}
+
+.card .card-info .stars {
+  align-self: flex-end;
+  margin: 0.2rem 0rem;
+}
+
+.card .card-info .stars span {
+  background: red;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.card .card-info img {
+  width: 250px;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 5px 2px #000000;
+  margin: 0.2rem 0rem;
+}
+
+.card .card-info small {
+  font-size: 0.6rem;
+}
+
+.card .card-info span,
+.card .card-info small {
+  align-self: flex-end;
+}
+
+.card .card-description {
+  padding: 0.2rem;
+  border: 3px solid red;
+  margin: 0 0.5rem;
+  background: #e8d7bd;
+}
+
+.card .card-description h2 {
+  font-size: 1rem;
+}
+
+.card .card-description p {
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+  font-family: "Amiri", serif;
+  font-style: italic;
+  line-height: 12px;
+}
+
+.card .card-description .combat-info {
+  text-align: right;
+  font-size: 0.7rem;
+}
+
+.card .card-description .combat-info strong {
+  margin-left: 0.4rem;
+}
+
+hr {
+  border: 1px solid #00000080;
+  margin-bottom: 0.2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem 0.5rem;
+}
+
+footer small {
+  font-size: 0.6rem;
+}
